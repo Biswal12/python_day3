@@ -1,0 +1,5 @@
+print("enter the first number")
+n11=input()
+print ("enter the second number")
+n22=input()
+print("the sum of two numbers is ", int(n11) +  int(n22))

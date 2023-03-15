@@ -1,0 +1,21 @@
+#list---ordered--default
+#
+list1=[]
+print(list1,type(list1))
+list2=[10,20,30,40]
+print(list2,type(list2))
+list3=[1,20.2,30+3j,True,"python"]
+print(list3,type(list3))
+list4=list([1,2,3,4])
+print(list4,type(list4))
+list5=[1,2,3,5]
+list5.append("basudev")
+print(list5)
+list5.extend([9,7,"bb"])
+print(list5)
+list5.insert(0,90)#index value
+print(list5)
+list5.pop()
+print(list5)
+list5.remove(5)
+print(list5)
